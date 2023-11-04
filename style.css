@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.content-box {
+  box-sizing: content-box;
+  margin: 10px;
+  background-color: #f395dd;
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+.border-box {
+  margin: 10px;
+  background-color: #86d0dd;
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+.box {
+  box-sizing: border-box;
+  height: 250px;
+  width: 30%;
+  background-color: #f395dd;
+  font-size: 30px;
+  text-align: center;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-inner {
+  display: flex;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=style.css.map */
